@@ -24,14 +24,12 @@
         <section class="main-section">
             <div class="div-formulario">
                 <h1 class="main-title">Deixe um recado!</h1>
-                <form action="https://api.staticforms.xyz/submit" method="post" class="formulario">
-                    <input type="hidden" name="accessKey" value="7f436409-9d7d-414f-b922-c818e5bd82ff">
-                    <input class="recado-input" type="text" name="Nome" placeholder="Nome completo">
-                    <input class="recado-input" type="text" name="E-mail" placeholder="E-mail">
-                    <input class="recado-input" type="text" name="Empresa" placeholder="Empresa">
-                    <textarea id="recado" maxlength="200" cols="20" rows="10" name="Recado" placeholder="Deixe o seu recado:"></textarea>
-                    <input type="hidden" name="redirectTo" value="message.html">
-                    <input id="botao-formulario" type="submit" value="Enviar" />
+                <form class="formulario">
+                    <input class="recado-input" type="text" placeholder="Nome completo">
+                    <input class="recado-input" type="text" placeholder="E-mail">
+                    <input class="recado-input" type="text" placeholder="Empresa">
+                    <textarea id="recado" maxlength="200" cols="20" rows="10" placeholder="Deixe o seu recado:"></textarea>
+                    <button id="botao-formulario" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
